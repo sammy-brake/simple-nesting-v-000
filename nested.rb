@@ -58,8 +58,8 @@ def dennis_ritchies_language
         }
      }
   
-    new_string =  programmer_hash[:dennis_ritchie][:languages]
-    return new_string
+   programmer_hash[:dennis_ritchie][:languages] = "C"
+    return 
 end
 
 def adding_matz
